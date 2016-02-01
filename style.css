@@ -1,0 +1,99 @@
+@font-face {
+    font-family: PTSans;
+    src: url('fonts/pt.ttf');
+}
+
+@font-face {
+	font-family: PTSansBold;
+	src: url('fonts/ptbold.ttf');
+}
+
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family:PTSans;
+	font-size:18px;
+	text-decoration:none;
+	color:white;
+}
+
+
+html
+{
+	background: #001052;
+	color: white;
+	font-family: PTSansBold;
+}
+
+body
+{
+	padding: 0 1vw 5vh 5vw;
+}
+
+h1
+{
+	font-size:300%;
+	padding:5px 0 5px 0;
+	border-bottom: solid 2px white;
+	margin: 0 0 10px 0;
+}
+
+h2
+{
+	font-size:150%;
+	font-weight:normal;
+	font-family:PTSansBold;
+	margin-bottom:10px;
+}
+
+table
+{
+	margin:10px 0 10px 0;
+}
+
+td
+{
+	padding: 0 15px 0 0;	
+}
+
+th
+{
+	font-weight:normal;
+	font-family:PTSansBold;
+}
+
+table, tr, td, th
+{
+	border: 1px solid white;
+	border-collapse:collapse;
+}
+
+tr
+{
+	text-align:left;
+}
+
+p
+{
+	padding: 0 15px 10px 0;
+	line-height:98%;
+	text-align:justify;
+}
+
+b
+{
+	font-weight:normal;
+	font-family:PTSansBold;
+}
+
+li
+{
+	margin-left: 25px;
+}
+
+a:hover
+{
+	background-color:white;
+	color: #001052;
+}
