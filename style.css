@@ -15,14 +15,14 @@
 	font-family:PTSans;
 	font-size:18px;
 	text-decoration:none;
-	color:white;
+	color:#0D0900;
 }
 
 
 html
 {
-	background: #001052;
-	color: white;
+	background: #FFF0CC;
+	color: #0D0900;
 	font-family: PTSansBold;
 }
 
@@ -35,7 +35,7 @@ h1
 {
 	font-size:300%;
 	padding:5px 0 5px 0;
-	border-bottom: solid 2px white;
+	border-bottom: solid 2px #3B2900;
 	margin: 0 0 10px 0;
 }
 
@@ -65,7 +65,7 @@ th
 
 table, tr, td, th
 {
-	border: 1px solid white;
+	border: 1px solid #3B2900;
 	border-collapse:collapse;
 }
 
