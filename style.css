@@ -15,14 +15,21 @@
 	font-family:PTSans;
 	font-size:18px;
 	text-decoration:none;
-	color:#0D0900;
+	color:#3D2F00;
+}
+
+img
+{
+	padding: 0;
+	margin: 0;
+	max-width:220px;
 }
 
 
 html
 {
-	background: #FFF0CC;
-	color: #0D0900;
+	background: #FCF5DC;
+	color: #3D2F00;
 	font-family: PTSansBold;
 }
 
@@ -35,7 +42,7 @@ h1
 {
 	font-size:300%;
 	padding:5px 0 5px 0;
-	border-bottom: solid 2px #3B2900;
+	border-bottom: solid 2px #3D2F00;
 	margin: 0 0 10px 0;
 }
 
@@ -54,7 +61,7 @@ table
 
 td
 {
-	padding: 0 15px 0 0;	
+	padding: 1px 1px 1px 1px;	
 }
 
 th
@@ -65,7 +72,7 @@ th
 
 table, tr, td, th
 {
-	border: 1px solid #3B2900;
+	border: 1px solid #3D2F00;
 	border-collapse:collapse;
 }
 
