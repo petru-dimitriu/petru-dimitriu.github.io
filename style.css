@@ -41,6 +41,8 @@ body
 h1
 {
 	font-size:300%;
+    font-weight:normal;
+    font-family:PTSansBold;
 	padding:5px 0 5px 0;
 	border-bottom: solid 2px #3D2F00;
 	margin: 0 0 10px 0;
