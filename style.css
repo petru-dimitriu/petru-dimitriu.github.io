@@ -1,19 +1,9 @@
-@font-face {
-    font-family: PTSans;
-    src: url('fonts/pt.ttf');
-}
-
-@font-face {
-	font-family: PTSansBold;
-	src: url('fonts/ptbold.ttf');
-}
-
 *
 {
 	padding: 0;
 	margin: 0;
-	font-family:PTSans;
-	font-size:18px;
+	font-family:Merriweather;
+	font-size:20px;
 	text-decoration:none;
 	color:#3D2F00;
 }
@@ -28,9 +18,9 @@ img
 
 html
 {
-	background: #FCF5DC;
+	background: white;
 	color: #3D2F00;
-	font-family: PTSansBold;
+	font-family: Merriweather;
 }
 
 body
@@ -42,7 +32,7 @@ h1
 {
 	font-size:300%;
     font-weight:normal;
-    font-family:PTSansBold;
+    font-family:Merriweather;
 	padding:5px 0 5px 0;
 	border-bottom: solid 2px #3D2F00;
 	margin: 0 0 10px 0;
@@ -51,8 +41,9 @@ h1
 h2
 {
 	font-size:150%;
-	font-weight:normal;
-	font-family:PTSansBold;
+	font-weight:bold;
+	font-family:Merriweather;
+    margin-top: 10px;
 	margin-bottom:10px;
 }
 
@@ -68,8 +59,8 @@ td
 
 th
 {
-	font-weight:normal;
-	font-family:PTSansBold;
+	font-weight:bold;
+	font-family:Merriweather;
 }
 
 table, tr, td, th
@@ -92,8 +83,8 @@ p
 
 b
 {
-	font-weight:normal;
-	font-family:PTSansBold;
+	font-weight:bold;
+	font-family:Merriweather;
 }
 
 li
