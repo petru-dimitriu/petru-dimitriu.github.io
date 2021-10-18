@@ -1,7 +1,7 @@
 function init()
 {
-	$("h1").prop('title', getGreetingExplained());
-	$("h1").html(getGreeting);
+	$(".roTitle").prop('title', getGreetingExplained());
+	$(".roTitle").html(getGreeting);
 }
 
 function getGreeting()

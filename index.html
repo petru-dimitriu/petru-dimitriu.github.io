@@ -2,38 +2,122 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet"> 
+
 <link href="style.css" rel="stylesheet">
+
 <script src="jquery.js" type="text/javascript"></script>
 <script src="script.js" type="text/javascript"></script>
-<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
 <title>Petru Dimitriu's page</title>
 </head>
 <body onload="init()">
-	<h1>Welcome!</h1>
-	<h2>Welcome to Petru Dimitriu's page!</h2>
-	<p> <b>Who I am.</b> My name is <b>Petru Dimitriu</b></p>
-	<p><b>What I do.</b> Programmer by profession, meaning seeker by vocation.
-	<h2> My repos on GitHub </h2>
-	<p>Here are some of the projects I have published on GitHub.</p>
-	<table>
-	<tr><th>Project name</th><th>Purpose</th><th>Languages and frameworks used</th><th>We all love screenshots</th></tr>
-		<tr><td><a href="https://github.com/petru-dimitriu/acum">Acum</a></td><td>Modular rolling news screensaver</td><td>Web stuff, JQuery</td><td><img src="https://raw.githubusercontent.com/petru-dimitriu/acum/master/screen/record.gif"/></td></tr>
-	<tr><td><a href="https://github.com/petru-dimitriu/electron-sqlite-manager">Electron SQLite manager</a></td><td>SQLite3 database manager meant to be easy and straightforward to use.</td><td>Web stuff, JQuery</td><td><img src="https://raw.githubusercontent.com/petru-dimitriu/electron-sqlite-manager/master/screen/screen2.png"/></td></tr>
-	<tr><td><a href="https://github.com/petru-dimitriu/electron-photo-manager">Electron photo manager</a></td><td>Locally-stored photo manager using an SQLite database</td><td>Web stuff, JQuery, Sqlite3 </td><td><img src="https://raw.githubusercontent.com/petru-dimitriu/electron-photo-manager/master/screen/4.png"/></td></tr>
-	<tr><td><a href="https://github.com/petru-dimitriu/lyrics-visualizer">Lyrics visualizer</a></td><td>Music player with lyrics visualizer with fancy effects</td><td>JQuery</td><td><img src="https://raw.githubusercontent.com/petru-dimitriu/lyrics-visualizer/master/screenshot.gif"/></td></tr>
-	<tr><td><a href="https://github.com/petru-dimitriu/AHK-Random-Word-Generator">Random Word Generator</a></td><td>Windows app which generates random words according to simple rules, inspired by a similar shareware app.</td><td>AutoHotkey</td><td><img src="https://raw.githubusercontent.com/petru-dimitriu/gac/master/generator.png"/></td></tr>
-	<tr><td><a href="https://github.com/petru-dimitriu/LiquidCrystalRomanianChars">Romanian characters for Arduino-operated LCDs</a></td><td>Arduino library which implements the Romanian diacritics (ă, â, î/Î, Ș/ș, ț, Ă, Â, Ț) for display using Hitachi HD44780-compatible LCD controllers.</td><td>Arduino C++</td><td><img src="https://raw.githubusercontent.com/petru-dimitriu/LiquidCrystalRomanianChars/master/screen2.gif"/></td></tr>
-	<tr><td><a href="https://github.com/petru-dimitriu/wxPianoControl">wxPianoControl</a></td><td>Custom widget for wxWidgets which displays a piano and supports being played using the keyboard, as well as other features.</td><td>C++</td><td><img src="https://raw.githubusercontent.com/petru-dimitriu/wxPianoControl/master/screen1.png"/></td></tr>
-	<tr><td><a href="https://github.com/petru-dimitriu/wxFlatButton">wxFlatButton</a></td><td>Custom widget for wxWidgets which displays a flat button.</td><td>C++</td><td><img src="https://raw.githubusercontent.com/petru-dimitriu/wxFlatButton/master/screen1.png"></td></tr>
-	<tr><td><a href="https://github.com/petru-dimitriu/Numerical-Calculus">Numerical calculus problems</a></td><td>Repository containing some numerical calculus problems</td><td>MATLAB</td><td></td></tr>
-	<tr><td><a href="https://github.com/petru-dimitriu/matrixman">Bidimensional matrix manipulation library for C++</a></td><td>Matrix manipulation library for use within numerical calculus problems</td><td>C++</td><td></td></tr>
-	</table>
+	<h1>Petru Dimitriu's page</h1><br>
+	<h2 class="roTitle">Welcome to Petru Dimitriu's page!</h2>
+    <p><b>Myself.</b> Born in 1996 in Galati, Romania. Studied at <a href="https://cnva.eu/">CNVA Galati</a>, then got my BEng in 2018 and MEng in 2020 from <a href="http://tuiasi.ro/">TUIASI</a>, <a href="https://ac.tuiasi.ro/">Faculty of Automatic Control and Computer Engineering.</a> I also studied for one semester at The University of Sheffield, <a href="https://www.sheffield.ac.uk/acse">Department of ACSE</a> in 2016. I am fluent in English and conversational in French.</p>
+    <p><b>My career.</b> Proudly been working as a Software Developer Engineer for Amazon since October 2018. Additionally, I have been teaching programming fundamentals for first-year faculty students as a wholesome side job since 2020.
+    My engineer's diploma thesis was titled 'Scorewriter application with features aimed at Byzantine music processing', parts of which are published in an <a href="https://ieeexplore.ieee.org/document/8540701">IEEE conference paper</a>.
+    I contributed Romanian translations to the <a href="https://reactos.org">ReactOS</a> open source project. I also co-initiated the <a href="http://savewinamp.com">Save Winamp campaign</a> to urge the continued development of the Winamp media player back in 2013.
+    I have been a problem proposer and judge in the oldest software contest aimed at highschool students in Romania, <a href="https://infoeducatie.ro/">InfoEducatie</a> since 2017.
+    </p> 
+    <p><b>Trivia.</b> I enjoy singing and greatly enjoyed conducting the faculty choir during studenthood. I like to think of myself as an engineer by profession but a meaning seeker by vocation.</p>
+
+	<h2> My public repos on GitHub </h2>
+	<p>Here are some of the projects I have published on GitHub. Please note that almost all were written as mere prototypes or personal projects and were not meant to stand out as examples of top-notch code quality.</p>
+
+    <div class='reel'>
+    <div class='reelPhoto' style="background-image:url('https://raw.githubusercontent.com/petru-dimitriu/acum/master/screen/record.gif')">
+        <a href='https://github.com/petru-dimitriu/acum'><div class='cover'></div></a>
+        <div class='reelDescription'>
+            <h2>Acum</h2><div class='taglist'>
+                <div class='tag'>HTML</div>
+                <div class='tag'>Node.js</div>
+            </div><br>
+            <span class='reelDescriptionText'> Modular rolling news screensaver </span>
+        </div>
+    </div>
+
+    <div class='reelPhoto' style="background-image:url('https://raw.githubusercontent.com/petru-dimitriu/electron-sqlite-manager/master/screen/screen2.png')">
+        <a href='https://github.com/petru-dimitriu/electron-sqlite-manager'><div class='cover'></div></a>
+        <div class='reelDescription'>
+            <h2>Electron SQLite manager</h2><div class='taglist'>
+                <div class='tag'>HTML</div>
+                <div class='tag'>Node.js</div>
+            </div><br>
+            <span class='reelDescriptionText'> SQLite3 database manager meant to be easy and straightforward to use. </span>
+        </div>
+    </div>
+
+    <div class='reelPhoto' style="background-image:url('https://raw.githubusercontent.com/petru-dimitriu/electron-photo-manager/master/screen/4.png')">
+        <a href='https://github.com/petru-dimitriu/electron-photo-manager'><div class='cover'></div></a>
+        <div class='reelDescription'>
+            <h2>Electron Photo Manager</h2><div class='taglist'>
+                <div class='tag'>HTML</div>
+                <div class='tag'>Node.js</div>
+            </div><br>
+            <span class='reelDescriptionText'> Locally-stored photo manager using an SQLite database </span>
+        </div>
+    </div>
+
+    <div class='reelPhoto' style="background-image:url('https://raw.githubusercontent.com/petru-dimitriu/lyrics-visualizer/master/screenshot.gif')">
+        <a href='https://github.com/petru-dimitriu/lyrics-visualizer'><div class='cover'></div></a>
+        <div class='reelDescription'>
+            <h2>Lyrics Visualizer</h2><div class='taglist'>
+                <div class='tag'>HTML5</div>
+                <div class='tag'>JQuery</div>
+                <div class='tag'>Node.js</div>
+            </div><br>
+            <span class='reelDescriptionText'> Music player with lyrics visualizer with fancy effects </span>
+        </div>
+    </div>
+
+    <div class='reelPhoto' style="background-image:url('https://raw.githubusercontent.com/petru-dimitriu/gac/master/generator.png')">
+        <a href='https://github.com/petru-dimitriu/AHK-Random-Word-Generator'><div class='cover'></div></a>
+        <div class='reelDescription'>
+            <h2>Random Word Generator</h2><div class='taglist'>
+                <div class='tag'>AutoHotkey</div>
+            </div><br>
+            <span class='reelDescriptionText'> Windows app which generates random words according to simple rules, inspired by a similar shareware app </span>
+        </div>
+    </div>
+
+    <div class='reelPhoto' style="background-image:url('https://raw.githubusercontent.com/petru-dimitriu/LiquidCrystalRomanianChars/master/screen2.gif'"><div class='cover')">
+        <a href="https://github.com/petru-dimitriu/LiquidCrystalRomanianChars"></div></a>
+        <div class='reelDescription'>
+            <h2>Romanian characters for Arduino-operated LCDs</h2><div class='taglist'>
+                <div class='tag'>C++</div>
+            </div><br>
+            <span class='reelDescriptionText'> Arduino library which implements the Romanian diacritics (ă, â, î/Î, Ș/ș, ț, Ă, Â, Ț) for display using Hitachi HD44780-compatible LCD controllers </span>
+        </div>
+    </div>
+
+    <div class='reelPhoto' style="background-image:url('https://raw.githubusercontent.com/petru-dimitriu/wxPianoControl/master/screen1.png'"><div class='cover')">
+        <a href=></div></a>
+        <div class='reelDescription'>
+            <h2>wxPianoControl</h2><div class='taglist'>
+                <div class='tag'>C++</div>
+            </div><br>
+            <span class='reelDescriptionText'>Custom widget for wxWidgets which displays a piano and supports being played using the keyboard, as well as other features </span>
+        </div>
+    </div>
+
+    <div class='reelPhoto' style="background-image:url('https://raw.githubusercontent.com/petru-dimitriu/wxFlatButton/master/screen1.png'"><div class='cover')">
+        <a href=></div></a>
+        <div class='reelDescription'>
+            <h2>wxFlatButton</h2><div class='taglist'>
+                <div class='tag'>C++</div>
+            </div><br>
+            <span class='reelDescriptionText'>Custom widget for wxWidgets which displays a flat button</span>
+        </div>
+    </div>
+
+    </div>
 	
 	<h2>Find me elsewhere</h2>
-	<ul>
-		<li><a href="https://ro.linkedin.com/in/petrudimitriu">LinkedIn</a></li>
-		<li><a href="https://en.wikipedia.org/wiki/User:Petru_Dimitriu">English Wikipedia</a></li>
-		<li><a href="http://www.infoarena.ro/utilizator/PetruD">Infoarena</a></li>
-	</ul>
+    <a href="https://ro.linkedin.com/in/petrudimitriu">Me on LinkedIn</a> / <a href="https://en.wikipedia.org/wiki/User:Petru_Dimitriu">Me on English Wikipedia</a> / <a href="http://www.infoarena.ro/utilizator/PetruD">Me on Infoarena</a>
+
 </body>
 </html>
